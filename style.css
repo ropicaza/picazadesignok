@@ -1,0 +1,89 @@
+@import url("components/Avatar.css");
+@import url("components/Banner.css");
+@import url("components/Buttons.css");
+@import url("components/Cards.css");
+@import url("components/navbar.css");
+
+body {
+    font-family: "Raleway";
+    padding-bottom: 0px;
+    margin: 0px;
+    background-color: #f4f4f3;
+}
+
+
+h1 {
+    font-family: "Julius Sans One", sans-serif;
+    color: gray;
+}
+
+h2 {
+    font-family: "Raleway", cursive;
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+  color: black;
+  font-weight: bold;
+}
+
+h4 {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+p {
+    color: #fffffb;
+    font-size: 20px;
+}
+
+img {
+  height: 225px;
+  width: 150px;
+}
+
+.container-sm {
+    padding: 20px;
+    height: 50%;
+    width: 50%;
+}
+
+
+
+.footer {
+    background: #838383;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: #ffe4e4;
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    color: #ffe4e4;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 0px 10px;
+  }
+  .footer-links a:hover {
+    opacity: 0.5;
+  }
+  .footer .fa-heart {
+    color: #D23333;
+  }
+
+  @media (max-width: 768px) { 
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+
